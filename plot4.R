@@ -16,7 +16,7 @@ png(file = "plot4.png")
 
   par(mfrow=c(2,2))
   ## plot upperleft
-  plot(t,GAP,type = "l",ylab="Global Active Power (kilowatts)",xlab="")
+  plot(t,GAP,type = "l",ylab="Global Active Power",xlab="")
 
   ## plot upperright
   plot(t,Voltage,type="l",xlab="datetime")
